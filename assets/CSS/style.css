@@ -1,0 +1,110 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-color: white;
+    height: 76px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    border-color: #cccccc;
+    background-color: #ffffff;
+    
+}
+
+.main-nav li
+{
+   display: inline-block; 
+}
+
+.main-nav li a 
+{
+    color: gray;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: lpx solid grey;
+}
+
+.main-nav li a:hover
+{
+    border: solid grey;
+}
+
+.container
+{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    border:#dddddd;
+    clear: both;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-image: url(../Images/bananas/bananas.png);
+}
+
+section
+{
+    background-color: #ffffff;
+}
+
+h1
+{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    float: left;
+}
+
+h2
+{
+    color: #4aaaa5;
+    margin: 0;
+    border-bottom: 1px solid;
+    border-color: #666666;
+    padding: 5px;
+}
+
+
+.middle
+{
+    max-width: 960px;
+    margin:150px;
+    border:#dddddd;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 150px;
+    align-self: auto, flex-start, flex-end, center, baseline, stretch;
+    line-height: 1.5;
+}
+
+footer
+{
+    background-color:#666666;
+    clear: both;
+    padding: 20px;
+
+}
