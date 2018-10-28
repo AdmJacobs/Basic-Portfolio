@@ -102,6 +102,52 @@ h2
     margin-top: 20px;
 }
 
+form {
+    max-width: 960px;
+    margin:0 auto;
+    border:#dddddd;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: auto, flex-start, flex-end, center, baseline, stretch;
+    line-height: 1.5;
+    height: 300px;
+    margin-top: 20px;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: block;
+    width: 90px;
+    text-align: left;
+  }
+  
+  input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 950px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #dddddd;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+button {
+    background-color: #4aaaa5;
+    size: 10px;
+    color: #ffffff;
+    float: left;
+  }
+  
+
 footer
 {
     background-color:#666666;
@@ -111,4 +157,5 @@ footer
     bottom: 0;
     width: 100%;
     text-align: center;
+    color: #dddddd;
 }
